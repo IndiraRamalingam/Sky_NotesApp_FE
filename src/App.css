@@ -1,5 +1,25 @@
 .formStyles{
    background: white;
-    width: 40rem;
+    width: 42rem;
     border-radius: 2rem;  
+}
+
+.title{
+    color:#ce5cbf;
+    font-style:italic;
+    font-weight:bolder;
+    text-align:center;
+}
+
+.title_span{
+    font-size:15px;
+    font-style:italic;
+    color:#07c388a3;
+}
+
+.title2{
+    color:#0d6efd;
+    font-weight:bolder;
+    text-align:center;
+    font-style:italic;
 }

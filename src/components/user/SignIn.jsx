@@ -56,11 +56,11 @@ function SignIn() {
       <>
       <section className="container h-100">
       <div className="row d-flex justify-content-center align-items-center h-100">
-      <h1 className="mt-5" style={{color:"#ce5cbf",fontStyle:'italic','fontWeight':'bolder','textAlign':'center'}}>SKY Notes<span style={{fontSize:'15px',fontStyle:'italic',color:'#07c388a3'}}>- Let's make a note</span></h1> 
+      <h1 className="mt-5 mb-5 title">SKY Notes <span className='title_span'>- Let's make a note</span></h1> 
         <div className="p-md-5 formStyles" >
             <Form onSubmit={handleSignin}>
               <div>
-                <h3 className="mb-4 text-uppercase" style={{color:"#0d6efd",'fontWeight':'bolder','textAlign':'center','fontStyle':'italic'}}>SIGN IN</h3>
+                <h3 className="mb-4 text-uppercase title2">SIGN IN</h3>
                 <br/>
               </div>
                 <Form.Group className="mb-3">
@@ -98,10 +98,15 @@ function SignIn() {
                         <p>_________________________OR__________________________</p>
                     </div>
 
-                    <div className='mt-4' style={{'fontSize':'17px'}}>
+                    <div className='mt-4 mb-4' style={{'fontSize':'17px'}}>
                         <p>New User? <Link to="/signup">Sign Up</Link></p>
                     </div>
                     
+                    <div className=''>
+                      <h6>Demo Credentials</h6>
+                      <p>UserName : test@gmail.com</p>
+                      <p>Password : test@123 </p>
+                      </div>
                 </div>
               </Form>           
         </div>
